@@ -10,6 +10,7 @@ namespace SchedulerSimulatorCGI
     {
         public string trn { get; set; }
         public int[] cdblist { get; set; }
+        public string color { get; set; }
     }
 
     public class AreaCritica
@@ -25,5 +26,11 @@ namespace SchedulerSimulatorCGI
 
         public string MissioniStr { get; set; }
         public string AreeCriticheStr { get; set; }
+    }
+
+    public class Data
+    {
+        public string Svg { get; set; }
+        public Missioni Missioni { get; set; }
     }
 }
